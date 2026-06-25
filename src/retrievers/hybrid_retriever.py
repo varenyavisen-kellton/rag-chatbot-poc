@@ -133,9 +133,6 @@ def retrieve(query):
         query
     )
 
-    transaction_id = extract_transaction_id(
-    query
-)
 
     if transaction_id:
 
